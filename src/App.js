@@ -3,7 +3,7 @@ import { ThemeProvider } from '@mui/material';
 
 import Navbar from './components/Navbar';
 import theme from './themes/theme';
-import { Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { Box } from '@mui/system';
 import SearchResults from './containers/SearchResults';
 import Home from './containers/Home';
@@ -21,6 +21,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <div className="App">
         <Navbar></Navbar>
+        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="discover" element={
@@ -62,6 +63,7 @@ const App = () => {
             }
           />
         </Routes>
+        </BrowserRouter>
         <Footer></Footer>
       </div>
     </ThemeProvider>
