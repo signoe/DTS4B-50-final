@@ -1,19 +1,22 @@
 # DTS REA4 Final Project
 
-Ketentuan lengkap bisa dilihat di [Final Project Guidelines](https://docs.google.com/document/d/122KyWNQ4xxU4aFwWbM4vIfH7LM4AH2CZEZa3YsEHjCk). 
+# Pair 50
+# MOVIEDA APP
+TMDB Movie app project
+# Fitur
+- Home page show trending movies and tv shows
+- Search movie
+- Add favourite movie
+# Technology
+- React
+- Redux Toolkit Query
+- Axios
+- React Router
+- Firebase Authentication
+- Material UI
+- React Slick 
 
-## Daftar pair
+View the site [Click here](https://movieda-app.netlify.app/).
 
-Tugas dikerjakan secara berpasangan, untuk daftar kelompok bisa dilihat pada masing-masing Classroom atau Discord Class.
-
-## Fork and Clone
-
-Mohon perwakilan dari pair bisa melakukan fork repo ini dan clone, untuk repositori yang di fork menggunakan penamaan:
-
-`dts4[a/b/c]-[nomor pair]-final`
-
-Contoh: `dts4a-01-final`
-
-## Branching, commit
-
-Branch dapat sesuai dengan kebutuhan dan kesepakatan bersama dalam pair, namun hasil akhirnya harus di merge ke branch `main` dan di push ke Github. Pastikan hasil akhir kode sudah ter-push!
+Demo
+![](./demo.gif)
