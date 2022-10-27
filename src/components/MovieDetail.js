@@ -37,7 +37,7 @@ const MovieDetail = () => {
             {Object.keys(data).length === 0 ? (
             <div>...Loading</div>
             ) : (
-            <Grid container  sx={{ mt:7, p:5, pl:10, pr:10, width:'100%', bgcolor:'#424242' }}>
+            <Grid container  sx={{ mt:7, p:5, width:'100%', bgcolor:'#424242' }}>
                 <Grid >
                 <Box sx={{minWidth:300}}>
                     <Card id={data.id}>
@@ -51,7 +51,7 @@ const MovieDetail = () => {
                     </Card>
                 </Box>
                 </Grid>
-                <Grid xs={12} md={6} lg={8}>
+                <Grid xs={12} md={6} lg={9}>
                     <List sx={{ width: 'auto',  bgcolor: '#424242', color: 'white', p: 4, pt:2 }}>
                             <Typography variant="h3" sx={{ mb:1 }}>{data.title} </Typography>
                             <Typography variant="body1">
