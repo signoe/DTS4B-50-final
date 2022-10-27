@@ -17,11 +17,10 @@ const MovieSlide = () => {
     console.log(tvShows);
   
     const settings = {
-      centerMode: true,
       infinite: true,
       focusOnSelect: true,
       centerPadding: "60px",
-      slidesToScroll: 5,
+      slidesToScroll: 2,
       speed: 1000, 
       initialSlide: 0,
       variableWidth: true,
